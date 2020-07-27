@@ -67,7 +67,7 @@ def main():
         color = COLOR[int(row[4])]
         img[y][x] = color
         if count % 1000 == 0:
-            print("{:.3f}%".format(100 * count / total))
+            print("\r{:.3f}%".format(100 * count / total), end='')
             cv2.imshow(TITLE, img)
             char = cv2.waitKey(1) & 0xFF
             if char == ord('q') or char == 27:
@@ -75,7 +75,7 @@ def main():
                 break
     
     if not break_flag:
-        print("Done")
+        print("Press any key on the window to exit...")
         cv2.waitKey(0)
     cv2.destroyAllWindows()
 

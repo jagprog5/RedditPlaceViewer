@@ -12,7 +12,6 @@ if [ -f "$1" ]; then
 else
     curl "https://storage.googleapis.com/justin_bassett/place_tiles" -o "$1"
     CURLVAL=$?
-    echo $CURLVAL
     if [ $CURLVAL != 0 ]; then
         exit $CURLVAL
     fi

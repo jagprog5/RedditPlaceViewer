@@ -9,3 +9,5 @@ run with `./display_place.py`
 The script will install opencv-python if it is not already installed.
 
 It will also download and sort the full place dataset (~1GB * 2).
+
+Use `ESC` or `q` to stop the animation.
