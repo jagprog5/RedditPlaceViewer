@@ -1,6 +1,6 @@
 # r/place viewer
 
-![](https://github.com/jagprog5/PlaceRedditViewer/blob/master/img.png)
+![](https://github.com/jagprog5/RedditPlaceViewer/blob/master/img.png)
 
 Shows the progressions of [r/place](https://www.reddit.com/r/place/).
 
