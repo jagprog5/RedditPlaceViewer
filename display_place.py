@@ -55,7 +55,6 @@ def main():
 
     file = open(SORTED_FILE, "r")
     csv_reader = csv.reader(file)
-    next(csv_reader) # ignore header
     break_flag = False
     for row in csv_reader:
         count += 1
